@@ -4,6 +4,10 @@ body {
     color: rgb(255, 255, 255);
 } 
 
+#Resource{
+    color: rgb(0, 255, 0); 
+}
+
 .topbar a {
     float: left;
     color:bisque;
