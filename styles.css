@@ -1,0 +1,20 @@
+.topbar a {
+    float: left;
+    color:bisque;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* prevents link underline */
+    font-size: medium;
+}
+
+.topbar {
+    background-color:darkblue;
+    overflow: hidden; 
+    /* overflow deals with items that do not fit their size restrictions */
+    width:100%;
+    margin: 0;
+}
+
+.topbar a:hover {
+    background-color: crimson;
+}
