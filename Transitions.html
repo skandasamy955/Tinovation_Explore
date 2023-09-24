@@ -7,7 +7,7 @@ body {
     color: white;
 }
 
-div {
+.animated_div {
     width: 60px;
     height: 40px;
     background: #92B901;
@@ -25,7 +25,7 @@ div {
 
 }
 
-div:hover {
+.animated_div:hover {
     width: 500px;
   height: 300px;
   font-size: 250px;
@@ -35,7 +35,7 @@ div:hover {
   transform: rotate(360deg);
 }
 
-h1 {
+#Title {
     width: auto;
     height: auto;
     text-align: center;
@@ -45,7 +45,7 @@ h1 {
     transition-delay: 0ms;
 }
 
-h1:hover {
+#Title:hover {
     color: red;
 }
 
@@ -54,7 +54,7 @@ h1:hover {
 </head>
 <body>
 
-<h1>The transition Property</h1>
+<h1 id="Title">The transition Property</h1>
 
 <h2>CSS transitions allow you to change property values smoothly, over a given duration. <br>    
     Here are some examples of how transitions work when you hover over certain objects.</h2>
