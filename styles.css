@@ -8,24 +8,29 @@ body {
     color: rgb(0, 255, 0); 
 }
 
-.topbar a {
-    float: left;
+nav a {
+    /* float: left; */
     color:bisque;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none; /* prevents link underline */
-    font-size: medium;
+    font-size: 25px;
+    /* font-family: comic-sans; */
+    padding: 14px 20px;
 }
 
-.topbar {
+nav {
     background-color:darkblue;
     overflow: hidden; 
     /* overflow deals with items that do not fit their size restrictions */
-    width:100%;
-    margin: 0;
+    width: max-content;
+    height: min-content;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
 }
 
-.topbar a:hover {
+nav a:hover {
     background-color: crimson;
 }
 
