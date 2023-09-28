@@ -10,28 +10,45 @@ body {
 
 nav a {
     /* float: left; */
-    color:bisque;
+    color:black;
     text-align: center;
     text-decoration: none; /* prevents link underline */
     font-size: 25px;
-    /* font-family: comic-sans; */
+    font-family: comic-sans, cursive, sans-serif,serif;
     padding: 14px 20px;
+    transition-property: color, background-color;
+    transition-duration: 1s;
 }
 
 nav {
-    background-color:darkblue;
+    background-color:#eadbcb;
     overflow: hidden; 
     /* overflow deals with items that do not fit their size restrictions */
-    width: max-content;
-    height: min-content;
-    margin: auto;
+    width: 1100px;
+    height: 30px;
+    margin-left: 160px;
     text-align: center;
+    box-shadow: black 1px 10px 10px;
     padding: 10px;
     border-radius: 25px;
+    transition-property: width,height,box-shadow,transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 
 nav a:hover {
-    background-color: crimson;
+    color: blue;
 }
 
+nav:hover {
+    box-shadow: white 1px 10px 90px;
+    transform:scale(105%)
+}
 
+#trans:hover{
+color: blue;
+}
+
+#buttons:hover{
+    color: green;
+}
