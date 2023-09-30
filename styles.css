@@ -9,6 +9,14 @@ body {
     color: rgb(0, 255, 0); 
 }
 
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 5px 50px;
+}
+
 nav a {
     /* float: left; */
     color:black;
@@ -27,7 +35,7 @@ nav {
     /* overflow deals with items that do not fit their size restrictions */
     width: max-content;
     height: min-content;
-    margin: auto;
+    margin: 20px auto;
     text-align: center;
     box-shadow: black 1px 10px 10px;
     padding: 10px;
@@ -40,21 +48,48 @@ nav {
 table {
     width: 70%;
     text-align: left;
-    border-collapse: collapse;
     margin: auto;
+    /* border-radius: 10px; */
 }
 
-table, th, td {
-    border: 1px solid;
+td.num {
+    text-align: center;
+}
+
+#style1 tr:nth-child(even) {
+    background-color: darkslategray;
+}
+
+#style1 tr:nth-child(odd) {
+    background-color: darkgray;
+}
+
+#style1 th {
+    font-size: 30px;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+#style1 td {
+    font-size: 20px;
+    padding: 20px;
+}
+
+#style2, #style2 * {
+    border: 2px solid;
     border-color: white;
+    border-radius: 10px;
 }
 
-td, th {
-    padding: 20px, 5px;
+#style2 td {
+    padding: 20px;
+    background-color: darkred;
 }
 
-
-
+#style2 th {
+    padding: 10px;
+    background-color: darkgreen;
+}
 
 nav a:hover {
     color: blue;
@@ -77,5 +112,22 @@ color: blue;
     width: auto;
     height: auto;
     text-align: center;
-    color: chartreuse;
+}    
+
+img {
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#img-style-1 {
+    transform: scaleX(5);
+    margin-top: 10px;
+}
+
+#img-style-2 {
+    transform: scaleY(5);
+    margin-top: 50%;
 }
