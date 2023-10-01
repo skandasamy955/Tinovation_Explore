@@ -101,11 +101,19 @@ nav:hover {
 }
 
 #trans:hover{
-color: blue;
+color: red;
 }
 
-#buttons:hover{
-    color: green;
+#tables_nav:hover{
+    color: aqua;
+}
+
+#Buttons_nav:hover{
+    color: rgb(0, 255, 0);
+}
+
+#home:hover{
+    color: orangered;
 }
 
 .title{
