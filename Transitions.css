@@ -16,7 +16,7 @@ body {
     padding: 10px;
     border: 10px;
     float: left;
-    margin: 5px;
+
     border-radius: 5px;
     transition-property: width,height,transform,color,background,font,opacity;
     transition-duration: 1s;
@@ -25,9 +25,9 @@ body {
 }
 
 .transition_div:hover {
-    width: 500px;
-    height: 300px;
-    font-size: 250px;
+    width: 300px;
+    height: 200px;
+    font-size: 150px;
     font-family: comic-sans, cursive, sans-serif,serif;;
     background-color: aqua;
     color: black;
