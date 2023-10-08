@@ -1,0 +1,30 @@
+body{
+    font-family: cursive;
+}
+
+.headings {
+    counter-reset: heading-counter;
+}
+  
+.section {
+    counter-reset: heading-counter section-counter;
+}
+
+h2::before {
+    counter-increment: heading-counter;
+    content: counter(heading-counter) ". ";
+    
+}
+.section h2::before {
+    counter-increment: section-counter; 
+    content: counter(section-counter, upper-roman) ". ";
+}
+
+div {
+    
+    width: 300px;
+    border: 10px solid blue;
+    padding: 50px;
+    margin: auto;
+    
+}
