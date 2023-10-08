@@ -130,10 +130,6 @@ img {
     display: flex;
 }
 
-.block {
-    
-}
-
 #img-style-1 {
     transform: scaleX(5);
     margin-top: 50px;
