@@ -123,19 +123,58 @@ color: red;
 }    
 
 img {
-    width: 20%;
-    height: auto;
+    height: 100px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: flex;
+}
+
+.block {
+    
 }
 
 #img-style-1 {
     transform: scaleX(5);
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 #img-style-2 {
     transform: scaleY(5);
-    margin-top: 50%;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+#img-style-3 {
+    transition: transform 5s;
+}
+
+#img-style-3:hover {
+    transform: rotateY(180deg)
+}
+
+#img-style-4 {
+    margin-top: 50px;
+    transition: transform 5s;
+}
+
+#img-style-4:hover {
+    transform: rotateX(180deg);
+}
+
+#img-style-5 {
+    margin-top: 50px;
+    transition: transform 5s;
+}
+
+#img-style-5:hover {
+    transform: rotateZ(180deg);
+}
+
+#row {
+    display: flex;
+    margin: auto;
+    float: left;
+    width: 180px;
+    padding: 10%;
 }
