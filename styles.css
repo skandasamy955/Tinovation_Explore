@@ -92,7 +92,7 @@ td.num {
 }
 
 nav a:hover {
-    color: blue;
+    color: rgb(255, 0, 255);
 }
 
 nav:hover {
@@ -100,20 +100,32 @@ nav:hover {
     transform:scale(105%)
 }
 
+#Dropdowns_nav:hover{
+    color: orange;
+}
+
 #trans:hover{
-color: red;
+color: rgb(0, 255, 0);
 }
 
 #tables_nav:hover{
-    color: aqua;
+    color: blue;
 }
 
 #Buttons_nav:hover{
-    color: rgb(0, 255, 0);
+    color: aqua;
 }
 
 #home:hover{
+    color: yellow;
+}
+
+#counters_nav:hover{
     color: orangered;
+}
+
+#lists_nav:hover{
+    color: hotpink;
 }
 
 .title{
@@ -173,4 +185,32 @@ img {
     float: left;
     width: 180px;
     padding: 10%;
+}
+
+#Dropdowns_list{
+    color: orange;
+}
+
+#trans_list{
+color: rgb(0, 255, 0);
+}
+
+#tables_list{
+    color: blue;
+}
+
+#Buttons_list{
+    color: aqua;
+}
+
+#counters_list{
+    color: orangered;
+}
+
+#lists_list{
+    color: hotpink;
+}
+
+#Transformations_list {
+    color: rgb(255, 0, 255);
 }
